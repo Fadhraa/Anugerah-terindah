@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animasi Mengetik dan Pemutar Lagu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <div class="overlay"></div>
+  <div class="container">
+    <div class="lagu">
+        <div class="circle-outer">
+
+        </div>
+        <div class="circle">
+          <img src="IMG_20241103_094744.jpg" alt="Profile Picture" class="circle-image">
+          <button id="play-button">Putar Lagu</button>
+        </div>
+    </div>
+    
+    <div class="text-wrapped" id="text">
+      <p id="typed-text"></p>
+    </div>
+  </div>
+
+  <audio id="audio" src="Westlife - My Love (Lyrics) - Alternate.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
